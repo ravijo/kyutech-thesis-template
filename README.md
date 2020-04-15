@@ -5,7 +5,7 @@ A LaTeX template for doctoral dissertation or master's thesis of Kyutech
 
 
 ## Requirements
-1. Make sure to have [TeX Live v2020](https://www.tug.org/texlive/)
+1. Make sure to have [TeX Live v2020](https://www.tug.org/texlive/).
 
 
 ## Compilation
