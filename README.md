@@ -1,5 +1,5 @@
 # kyutech-thesis-template
-A LaTeX template for doctoral dissertation or master's thesis of Kyutech
+A LaTeX template (unofficial) for doctoral dissertation or master's thesis of Kyutech.
 
 *Note: This template has been taken from [naist-thesis-tmpl-en](https://github.com/kmiya/naist-thesis-tmpl-en).*
 
