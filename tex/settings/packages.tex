@@ -1,0 +1,62 @@
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[l2tabu, orthodox]{nag}
+\usepackage[all, warning]{onlyamsmath}
+
+\let\equation\gather
+\let\endequation\endgather
+\usepackage{fancybox}
+\usepackage[flushmargin,symbol]{footmisc}
+
+\usepackage[%
+ bookmarks=true,%
+ bookmarksnumbered=true,%
+ setpagesize=false,%
+ colorlinks=false,%
+ linkbordercolor={0.8 0.8 0.8},%
+ citebordercolor={0.8 0.8 0.8},%
+ pdfborder={0 0 0.6},%
+ urlcolor=black,linkcolor=black,citecolor=black,%
+ pdftitle={\etitle},% Title of the dissertation
+ pdfauthor={\eauthor},%  Author's name
+ pdfsubject={\edoctitle},%
+ pdfkeywords={\ekeywords}]{hyperref}
+
+% page layout from NAIST style
+\topmargin=0.4truecm
+\textheight=20.5truecm     % height
+\textwidth=14.5truecm      % width
+\oddsidemargin=0.6truecm   % left margin
+\evensidemargin=-3.8truecm % right margin
+\linespread{1.2}
+
+\addtokomafont{disposition}{\rmfamily}
+\setcounter{tocdepth}{4}
+
+% all the graphics are placed inside 'figures' folder
+\graphicspath{{./figures/}}
+
+% we need subfigure
+\usepackage{subfigure}
+
+% bibliography management
+\usepackage[%
+ backend=biber,%
+ style=numeric,%
+ sorting=none,%
+ maxbibnames=99,%
+ defernumbers=true]{biblatex}
+
+% references are kept in references.bib file
+% publications are kept in publications.bib file
+% each entry in publications contains an extra keyword
+% such as journal, conference etc.
+% make sure to mark your papers with
+% keyword = {journal} or keyword = {conference}
+% inside bibliography file
+\addbibresource{tex/bib/publications.bib}
+\addbibresource{tex/bib/references.bib}

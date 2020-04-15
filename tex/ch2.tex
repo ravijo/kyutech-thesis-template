@@ -1,0 +1,33 @@
+\chapter{Chapter 2}
+\label{chap:ch2}
+
+\section{Tables}
+Tables can be used as shown below.
+
+\begin{table}[htbp]
+ \caption{Example of a table caption.}
+ \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+   \hline
+   \textbf{Table} & \multicolumn{3}{|c|}{\textbf{Table Column Head}}                                                         \\
+   \cline{2-4}
+   \textbf{Head}  & \textbf{\textit{Table column subhead}}           & \textbf{\textit{Subhead}} & \textbf{\textit{Subhead}} \\
+   \hline
+   copy           & More table copy$^{\mathrm{a}}$                   &                           &                           \\
+   \hline
+   \multicolumn{4}{l}{$^{\mathrm{a}}$Sample of a Table footnote.}
+  \end{tabular}
+  \label{tb:table}
+ \end{center}
+\end{table}
+
+
+\section{My Section}
+\label{sec:my}
+Equations can be used as shown below.
+
+\begin{equation}
+ \tau \dot{v} = \alpha + \beta * \gamma
+\end{equation}
+
+The cite command can be used to cite multiple entries at once \cite{gree00,phil99,jame76}.

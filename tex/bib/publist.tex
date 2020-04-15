@@ -1,0 +1,22 @@
+% manually specify
+\newrefsection
+\addchap{Publication List}
+\nocite{*}
+
+% print only journal papers
+% make sure to mark your journal papers with
+% keyword = {journal} inside bibliography file
+\printbibliography[%
+ heading=subbibliography,%
+ resetnumbers=true,%
+ keyword={journal},%
+ title={Journal Papers}]
+
+% print only conference papers
+% make sure to mark your conference papers with
+% keyword = {conference} inside bibliography file
+\printbibliography[%
+ heading=subbibliography,%
+ resetnumbers=true,%
+ keyword={conference},%
+ title={Conference Papers}]
