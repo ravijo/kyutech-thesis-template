@@ -9,7 +9,7 @@ A LaTeX template (unofficial) for doctoral dissertation or master's thesis of Ky
 
 
 ## Compilation
-* **Linux Platform:** Please invoke shell scipt `sh compile.sh` from the terminal.
+* **Linux Platform:** Please invoke shell script `sh compile.sh` from the terminal.
 * **Windows Platform:** Please use any TeX editor.
 * **Manual Compilation:** Make sure to follow the sequence of commands mentioned below to compile the file-
     ```
