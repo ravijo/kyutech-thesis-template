@@ -7,7 +7,7 @@
 # -------------------------------------------------
 
 # declare all temporary files
-temp_file_extensions="aux bbl blg log out lof toc bcf run.xml fdb_latexmk fls"
+temp_file_extensions="aux bbl blg log out lof toc bcf run.xml fdb_latexmk fls lot"
 
 # function
 compile_tex()
