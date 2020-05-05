@@ -60,3 +60,11 @@
 % inside bibliography file
 \addbibresource{tex/bib/publications.bib}
 \addbibresource{tex/bib/references.bib}
+
+% show the chapter name in the header on every page
+\usepackage[automark]{scrlayer-scrpage}
+% \clearpairofpagestyles
+\automark[section]{chapter}
+\lehead{\headmark}
+\pagestyle{scrheadings}
+
