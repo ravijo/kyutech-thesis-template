@@ -5,7 +5,7 @@ A LaTeX template (unofficial) for doctoral dissertation or master's thesis of Ky
 
 
 ## Requirements
-1. Make sure to have [TeX Live v2020](https://www.tug.org/texlive/).
+1. Make sure to have [TeX Live v2020 or higher](https://www.tug.org/texlive/). Older versions may show issues while dealing with bibliography.
 
 
 ## Compilation
