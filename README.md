@@ -10,7 +10,7 @@ A LaTeX template (unofficial) for doctoral dissertation or master's thesis of Ky
 
 ## Compilation
 * **Linux Platform:** Please invoke shell script `sh compile.sh` from the terminal.
-* **Windows Platform:** Please use any TeX editor.
+* **Windows Platform:** Just double click on `compile.bat` file.
 * **Manual Compilation:** Make sure to follow the sequence of commands mentioned below to compile the file-
     ```
     1. pdflatex thesis.tex
