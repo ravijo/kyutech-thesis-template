@@ -4,6 +4,7 @@
 # Usage: sh compile.sh
 # Author: Ravi Joshi
 # Date: 4 April 2020
+# Note: this file is designed for linux based OS
 # -------------------------------------------------
 
 # declare all temporary files
